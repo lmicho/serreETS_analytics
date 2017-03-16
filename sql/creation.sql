@@ -3,8 +3,10 @@ CREATE TABLE Member (
   firstName VARCHAR(50) NOT NULL,
   lastName VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
+  password VARCHAR(50) NOT NULL,
   phone CHAR(11),
   description VARCHAR (100),
+  firstVisitCheck INT NOT NULL DEFAULT 1,
   PRIMARY KEY (ID)
 );
 
