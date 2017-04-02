@@ -12,7 +12,7 @@ CREATE TABLE Member (
 
 CREATE TABLE Project(
   ID INT NOT NULL AUTO_INCREMENT,
-  name VARCHAR(100) NOT NULL;
+  name VARCHAR(100) NOT NULL,
   description VARCHAR(255) NOT NULL,
   PRIMARY KEY (ID)
 );
@@ -47,14 +47,14 @@ CREATE TABLE Status(
 CREATE TABLE DataInfo(
   ID INT NOT NULL AUTO_INCREMENT,
   data_entry VARCHAR(255) NOT NULL,
-  input_date Date
+  input_date Date,
   PRIMARY KEY (ID)
 );
 
 CREATE TABLE Alert(
   ID INT NOT NULL AUTO_INCREMENT,
   data_entry VARCHAR(255) NOT NULL,
-  input_date Date
+  input_date Date,
   PRIMARY KEY (ID)
 );
 
