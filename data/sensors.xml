@@ -1,0 +1,442 @@
+<capteurs>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>PH01</nom>
+        <unite>N/A</unite>
+        <description>PH</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>0</valmin>
+        <valmax>14</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>OR01</nom>
+        <unite>mV</unite>
+        <description>Potentiel d'oxyo-réduction</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>-1019.9</valmin>
+        <valmax>1019.9</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>OX01</nom>
+        <unite>%</unite>
+        <description>Taux d'oxygène dans l'eau, pourcentage de saturation</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>0</valmin>
+        <valmax>54</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>EC01</nom>
+        <unite>uS</unite>
+        <description>Electrical conductivity</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>0</valmin>
+        <valmax>200000</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>TD01</nom>
+        <unite>mg/L</unite>
+        <description>Total dissolved solids</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>SA01</nom>
+        <unite>PSU</unite>
+        <description>Salinity</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>SG01</nom>
+        <unite>N/A</unite>
+        <description>Specific gravity of sea water</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>TE01</nom>
+        <unite>C</unite>
+        <description>Température de l'eau</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>TE02</nom>
+        <unite>C</unite>
+        <description>Température de l'eau</description>
+        <location>B01</location>
+        <emplacement>Dernier bassin des poissons (près de la porte)</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>HU01</nom>
+        <unite>%</unite>
+        <description>Humidité de l'air ambiant</description>
+        <location>EXT01</location>
+        <emplacement>Extérieur</emplacement>
+        <statut>OUT</statut>
+        <valmin>N/A</valmin>
+        <valmax>N/A</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>RR01</nom>
+        <unite>N/A</unite>
+        <description>Couleur rouge de l'eau (0-255)</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>0</valmin>
+        <valmax>255</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>GG01</nom>
+        <unite>N/A</unite>
+        <description>Couleur verte de l'eau (0-255)</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>0</valmin>
+        <valmax>255</valmax>
+    </capteur>
+    <capteur>
+        <arduino>1</arduino>
+        <nom>BB01</nom>
+        <unite>N/A</unite>
+        <description>Couleur bleu de l'eau (0-255)</description>
+        <location>B04</location>
+        <emplacement>Bassin de rétention</emplacement>
+        <statut>WET</statut>
+        <valmin>0</valmin>
+        <valmax>255</valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>TA02</nom>
+        <unite>C</unite>
+        <description>Température de l'air ambiante</description>
+        <location>P01-01</location>
+        <emplacement>Bassin de plantes en haut à droite</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>HU02</nom>
+        <unite>%</unite>
+        <description>Humidité de l'air ambiante</description>
+        <location>P01-01</location>
+        <emplacement>Bassin de plantes en haut à droite</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>TA03</nom>
+        <unite>C</unite>
+        <description>Température de l'air ambiante</description>
+        <location>P03-04</location>
+        <emplacement>Bassin de plantes en haut à gauche</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>HU03</nom>
+        <unite>%</unite>
+        <description>Humidité de l'air ambiante</description>
+        <location>P03-04</location>
+        <emplacement>Bassin de plantes en haut à gauche</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>TA04</nom>
+        <unite>C</unite>
+        <description>Température de l'air ambiante</description>
+        <location>PL-01</location>
+        <emplacement>Plantes à lampes</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>HU04</nom>
+        <unite>%</unite>
+        <description>Humidité de l'air ambiante</description>
+        <location>PL01</location>
+        <emplacement>Plantes à lampes</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>TE03</nom>
+        <unite>C</unite>
+        <description>Température de l'eau</description>
+        <location>P01-01</location>
+        <emplacement>Bassin de plantes en haut à droite</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>TE04</nom>
+        <unite>C</unite>
+        <description>Température de l'eau</description>
+        <location>P03-04</location>
+        <emplacement>Bassin de plantes en bas à gauche</emplacement>
+        <statut>WET</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>LU01</nom>
+        <unite>Lux</unite>
+        <description>Lumière visible</description>
+        <location>P02-01</location>
+        <emplacement>Bassin du milieu premier quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>UV01</nom>
+        <unite>N/A</unite>
+        <description>Induce UV</description>
+        <location>P02-01</location>
+        <emplacement>Bassin du milieu premier quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>LU02</nom>
+        <unite>Lux</unite>
+        <description>Lumière visible</description>
+        <location>P02-02</location>
+        <emplacement>Bassin du milieu deuxième quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>IR02</nom>
+        <unite>Lux</unite>
+        <description>Lumière infra rouge</description>
+        <location>P02-02</location>
+        <emplacement>Bassin du milieu deuxième quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>UV02</nom>
+        <unite>N/A</unite>
+        <description>Indice UV</description>
+        <location>P02-02</location>
+        <emplacement>Bassin du milieu deuxième quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>LU03</nom>
+        <unite>Lux</unite>
+        <description>Lumière visible</description>
+        <location>SP-00</location>
+        <emplacement>Spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>IR03</nom>
+        <unite>Lux</unite>
+        <description>Lumière infra rouge</description>
+        <location>SP-00</location>
+        <emplacement>Spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>UV03</nom>
+        <unite>N/A</unite>
+        <description>Indice UV</description>
+        <location>SP-00</location>
+        <emplacement>Spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>LU04</nom>
+        <unite>Lux</unite>
+        <description>Lumière visible</description>
+        <location>P02-04</location>
+        <emplacement>Bassin du milieu quatrième quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>IR04</nom>
+        <unite>Lux</unite>
+        <description>Lumière infra rouge</description>
+        <location>P02-04</location>
+        <emplacement>Bassin du milieu quatrième quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>UV04</nom>
+        <unite>N/A</unite>
+        <description>Indice UV</description>
+        <location>P02-04</location>
+        <emplacement>Bassin du milieu quatrième quart</emplacement>
+        <statut>DRY</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>2</arduino>
+        <nom>CO</nom>
+        <unite>%</unite>
+        <description>Capteur de Co2</description>
+        <location>P01-01</location>
+        <emplacement>Bassin de plantes en haut à droite</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>PH02</nom>
+        <unite>N/A</unite>
+        <description>PH</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin>0</valmin>
+        <valmax>14</valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>OR02</nom>
+        <unite>V</unite>
+        <description>Potentiel d'oxydo-réduction en volt</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>OX02</nom>
+        <unite>mg/L</unite>
+        <description>Taux d'oxygène dans l'eau</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>EC02</nom>
+        <unite>uS</unite>
+        <description>Electrical conductivity</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>TD02</nom>
+        <unite>mg/L</unite>
+        <description>Total dissolved solids</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>SA02</nom>
+        <unite>PSU</unite>
+        <description>Salinity</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+    <capteur>
+        <arduino>N/A</arduino>
+        <nom>SG02</nom>
+        <unite>N/A</unite>
+        <description>Specific gravity of sea water</description>
+        <location>SP-00</location>
+        <emplacement>spare</emplacement>
+        <statut>N/A</statut>
+        <valmin></valmin>
+        <valmax></valmax>
+    </capteur>
+</capteurs>

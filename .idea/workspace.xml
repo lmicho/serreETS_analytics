@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5cf418a-d8ad-4bb0-9e27-378c8ed6cc66" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/app_v2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/controllers_v2/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/controllers_v2/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/logs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/logs/app.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/models/Connexion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/models/Constants.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/routes/eau/eau.controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/routes/eau/eau.model.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/oldie/routes/routes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/public/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/src/dependencies.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/src/middleware.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/src/routes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/src/settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/templates/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/tests/Functional/BaseTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/tests/Functional/HomepageTest.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GTI791.iml" afterPath="$PROJECT_DIR$/.idea/GTI791.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/insert.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api_dev/controllers/dataInfo.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/scripts/directives/header/header-notification/header-notification.html" afterPath="$PROJECT_DIR$/api/app/scripts/directives/header/header-notification/header-notification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/scripts/directives/header/header.html" afterPath="$PROJECT_DIR$/api/app/scripts/directives/header/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html" afterPath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/views/table.html" afterPath="$PROJECT_DIR$/api/app/views/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/creation.sql" afterPath="$PROJECT_DIR$/sql/creation.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/models/dataInfo.php" afterPath="$PROJECT_DIR$/api_dev/models/dataInfo.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,38 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateMemberInfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/updateMemberInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataInfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,7 +46,11 @@
       <find>project</find>
       <find>user profile</find>
       <find>Project</find>
+      <find>status</find>
     </findStrings>
+    <replaceStrings>
+      <replace>statut</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/api_dev</dir>
       <dir>$PROJECT_DIR$/api</dir>
@@ -145,7 +85,6 @@
         <option value="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.html" />
         <option value="$PROJECT_DIR$/api_dev/controllers/sensor.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/project/project.php" />
-        <option value="$PROJECT_DIR$/api_dev/models/dataInfo.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/project/read.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/project/getProjectDetails.php" />
         <option value="$PROJECT_DIR$/api_dev/models/project.php" />
@@ -159,6 +98,11 @@
         <option value="$PROJECT_DIR$/api_dev/controllers/member/getMemberInfo.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/member/updateMemberInfo.php" />
         <option value="$PROJECT_DIR$/api_dev/models/member.php" />
+        <option value="$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php" />
+        <option value="$PROJECT_DIR$/api_dev/models/DataInfoTest.php" />
+        <option value="$PROJECT_DIR$/data/sensors.xml" />
+        <option value="$PROJECT_DIR$/api_dev/models/dataInfo.php" />
+        <option value="$PROJECT_DIR$/data/insert.php" />
       </list>
     </option>
   </component>
@@ -173,7 +117,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="45" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="711" />
   </component>
@@ -192,7 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,6 +146,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,50 +245,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sensor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api_dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api_dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="member" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -341,22 +269,24 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api_dev/controllers/project" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/sql" />
       <recent name="$PROJECT_DIR$/api_dev/controllers/project" />
     </key>
   </component>
@@ -437,21 +367,23 @@
       <workItem from="1491068078704" duration="2259000" />
       <workItem from="1491096608354" duration="6583000" />
       <workItem from="1491105355918" duration="826000" />
-      <workItem from="1491138897360" duration="6411000" />
+      <workItem from="1491138897360" duration="7530000" />
+      <workItem from="1491334788998" duration="12328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27214000" />
+    <option name="totallyTimeSpent" value="40661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="45" width="1280" height="711" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="711" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22109374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18380062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -462,7 +394,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -474,31 +405,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/app/ressources/json/data.json" />
-    <entry file="file://$PROJECT_DIR$/api/app/views/ui-elements/buttons.html" />
-    <entry file="file://$PROJECT_DIR$/api/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/api/app/views/pages/login.html" />
-    <entry file="file://$PROJECT_DIR$/old/api_dev/oldie/routes/eau/eau.model.php" />
-    <entry file="file://$PROJECT_DIR$/old/api_dev/oldie/routes/eau/eau.controller.php" />
-    <entry file="file://$PROJECT_DIR$/api/config/database.php" />
-    <entry file="file://$PROJECT_DIR$/api/product/read.php" />
-    <entry file="file://$PROJECT_DIR$/api/objects/product.php" />
-    <entry file="file://$PROJECT_DIR$/api/config/core.php" />
-    <entry file="file://$PROJECT_DIR$/sql/contraintes.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/product/create.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/product/delete.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/product/read.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/objects/product.php" />
     <entry file="file://$PROJECT_DIR$/api_dev/config/core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -591,48 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/read.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectDetails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/models/dataInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <marker date="1491100773000" expanded="true" signature="425:439" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/project.php" />
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/read.php" />
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProject.php" />
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectDetails.php" />
     <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -641,117 +515,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/models/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1491142982000" expanded="true" signature="504:511" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:519" ph="SELECT P.* F... " />
-            <marker date="1491142982000" expanded="true" signature="504:520" ph="SELECT P.* F... ${$table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:539" ph="SELECT P.* F... ${$table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:540" ph="SELECT P.* F... ${$this-&gt;table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:602" ph="SELECT P.* F... Project" />
-            <marker date="1491142982000" expanded="true" signature="504:606" ph="SELECT P.* F... Project" />
-            <marker date="1491142982000" expanded="true" signature="891:1008" ph="SELECT S.ID " />
-            <marker date="1491142982000" expanded="true" signature="891:1078" ph="SELECT S.ID Sensor" />
-            <marker date="1491142982000" expanded="true" signature="891:1134" ph="SELECT S.ID Sensor" />
-            <marker date="1491142982000" expanded="true" signature="1148:1230" ph="SELECT S.*, Sensor" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor/getSensorInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="30" column="531" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="531" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="121" column="1" lean-forward="false" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/models/sensor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <marker date="1491143396000" expanded="true" signature="472:1016" ph="SELECT S.* F... Sensor" />
-            <marker date="1491143396000" expanded="true" signature="472:1032" ph="SELECT S.* F... Sensor" />
-            <marker date="1491143396000" expanded="true" signature="472:1033" ph="SELECT S.* F... Sensor" />
-            <marker date="1491143396000" expanded="true" signature="917:1016" ph="SELECT P.ID Project" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor/getSensors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="74" column="529" lean-forward="false" selection-start-line="74" selection-start-column="529" selection-end-line="74" selection-end-column="529" />
-          <folding>
-            <marker date="1491143415000" expanded="true" signature="717:1228" ph="SELECT S.*, " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/getMemberInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor/getSensorInfo.php" />
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor.php" />
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member.php" />
     <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/updatePassword.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/updateMemberInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -778,8 +548,238 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/updateMemberInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo.php" />
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/models/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1491142982000" expanded="true" signature="504:511" ph="SELECT * FRO... ${$this-&gt;table_name}" />
+            <marker date="1491142982000" expanded="true" signature="504:519" ph="SELECT P.* F... " />
+            <marker date="1491142982000" expanded="true" signature="504:520" ph="SELECT P.* F... ${$table_name}" />
+            <marker date="1491142982000" expanded="true" signature="504:539" ph="SELECT P.* F... ${$table_name}" />
+            <marker date="1491142982000" expanded="true" signature="504:540" ph="SELECT P.* F... ${$this-&gt;table_name}" />
+            <marker date="1491142982000" expanded="true" signature="504:602" ph="SELECT P.* F... Project" />
+            <marker date="1491142982000" expanded="true" signature="504:606" ph="SELECT P.* F... Project" />
+            <marker date="1491142982000" expanded="true" signature="891:1008" ph="SELECT S.ID " />
+            <marker date="1491142982000" expanded="true" signature="891:1078" ph="SELECT S.ID Sensor" />
+            <marker date="1491142982000" expanded="true" signature="891:1134" ph="SELECT S.ID Sensor" />
+            <marker date="1491142982000" expanded="true" signature="1148:1230" ph="SELECT S.*, Sensor" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/models/sensor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="22" column="578" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="578" />
+          <folding>
+            <marker date="1491143396000" expanded="true" signature="472:1016" ph="SELECT S.* F... Sensor" />
+            <marker date="1491143396000" expanded="true" signature="472:1032" ph="SELECT S.* F... Sensor" />
+            <marker date="1491143396000" expanded="true" signature="472:1033" ph="SELECT S.* F... Sensor" />
+            <marker date="1491143396000" expanded="true" signature="917:1016" ph="SELECT P.ID Project" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor/getSensors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="74" column="527" lean-forward="false" selection-start-line="74" selection-start-column="430" selection-end-line="74" selection-end-column="527" />
+          <folding>
+            <marker date="1491143415000" expanded="true" signature="717:1228" ph="SELECT S.*, " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/models/DataInfoTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/insertion_sensors.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-mocks/angular-mocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1828" column="55" lean-forward="true" selection-start-line="1828" selection-start-column="55" selection-end-line="1828" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/src/loading-bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="305" column="28" lean-forward="false" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/build/loading-bar.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="3010" lean-forward="false" selection-start-line="6" selection-start-column="3010" selection-end-line="6" selection-end-column="3010" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/build/loading-bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="186" column="8" lean-forward="false" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-chart.js/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-bootstrap/ui-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1707" column="37" lean-forward="false" selection-start-line="1707" selection-start-column="37" selection-end-line="1707" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-bootstrap/ui-bootstrap-tpls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1708" column="37" lean-forward="false" selection-start-line="1708" selection-start-column="37" selection-end-line="1708" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/Chart.js/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/getMemberInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/models/dataInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1491360744000" expanded="true" signature="417:583" ph="SELECT * FRO... DataInfo" />
+            <marker date="1491360744000" expanded="true" signature="417:584" ph="SELECT D.ID,... DataInfo" />
+            <marker date="1491360744000" expanded="true" signature="417:599" ph="SELECT * FRO... DataInfo" />
+            <marker date="1491360744000" expanded="true" signature="417:603" ph="SELECT D.ID,... DataInfo" />
+            <marker date="1491360744000" expanded="true" signature="417:604" ph="SELECT D.ID,... DataInfo" />
+            <marker date="1491360744000" expanded="true" signature="417:605" ph="SELECT D.ID,... DataInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <marker date="1491364940000" expanded="true" signature="2373:2443" ph="INSERT INTO arduino... " />
+            <marker date="1491364940000" expanded="true" signature="2823:2919" ph="INSERT INTO location... " />
+            <marker date="1491364940000" expanded="true" signature="2823:2920" ph="INSERT INTO arduino... " />
+            <marker date="1491364940000" expanded="true" signature="2823:2921" ph="INSERT INTO location... " />
+            <marker date="1491364940000" expanded="true" signature="2823:4898" ph="INSERT INTO location... " />
+            <marker date="1491364940000" expanded="true" signature="3176:3243" ph="INSERT INTO arduino... " />
+            <marker date="1491364940000" expanded="true" signature="3440:3461" ph="SELECT * FRO... Arduino" />
+            <marker date="1491364940000" expanded="true" signature="4262:4321" ph="INSERT INTO Sensor_Arduino... " />
+            <marker date="1491364940000" expanded="true" signature="4262:4420" ph="INSERT INTO Sensor_Arduino... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sensors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="196" column="11" lean-forward="false" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
           <folding />
         </state>
       </provider>
