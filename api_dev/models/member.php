@@ -64,7 +64,7 @@ class Member{
     //update member password
     function updatePassword($ID, $password){
 
-        $password = md5($password);
+        $password = hash('sha256', $password);
 
         // update query
         $query = "UPDATE Member SET password = :password, firstVisitCheck = :firstVisitCheck WHERE ID = :ID";
@@ -95,7 +95,7 @@ class Member{
     //update member info
     function updateMemberInfo($ID, $password, $phone, $description){
 
-        $password = md5($password);
+        $password = hash('sha256', $password);
 
         // update query
         $query = "UPDATE Member SET password = :password, phone = :phone, description = :description WHERE ID = :ID";

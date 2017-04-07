@@ -3,7 +3,7 @@ CREATE TABLE Member (
   firstName VARCHAR(50) NOT NULL,
   lastName VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
-  password VARCHAR(50) NOT NULL,
+  password VARCHAR(150) NOT NULL,
   phone CHAR(11),
   description VARCHAR (100),
   firstVisitCheck INT NOT NULL DEFAULT 1,
@@ -21,6 +21,8 @@ CREATE TABLE Sensor(
   ID INT NOT NULL AUTO_INCREMENT,
   name VARCHAR(10) NOT NULL,
   unit VARCHAR(20) NOT NULL,
+  max_val FLOAT NOT NULL,
+  min_val FLOAT NOT NULL,
   description VARCHAR(255) NOT NULL,
   PRIMARY KEY (ID)
 );
@@ -118,9 +120,9 @@ CREATE TABLE Sensor_DataInfo(
   PRIMARY KEY(ID)
 );
 
-CREATE TABLE DataInfo_Alert(
+CREATE TABLE Sensor_Alert(
   ID INT NOT NULL AUTO_INCREMENT,
-  ID_DataInfo INT NOT NULL,
+  ID_Sensor INT NOT NULL,
   ID_Alert INT NOT NULL,
   PRIMARY KEY(ID)
 );

@@ -16,7 +16,7 @@ $db = $database->getConnection();
 $dataInfo = new DataInfo($db);
 
 // member id
-$sensorName = "A1D9";
+$sensorName = "PH01";
 
 // query dataInfo
 $stmt = $dataInfo->getDataInfoBySensorName($sensorName);

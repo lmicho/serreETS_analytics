@@ -17,7 +17,8 @@ $member = new Member($db);
 // query login member
 $email = "laurianemichaud@hotmail.com";
 $test = "test";
-$password = md5($test);
+$password = hash('sha256', $test);
+
 
 $stmt = $member->login($email, $password);
 $num = $stmt->rowCount();

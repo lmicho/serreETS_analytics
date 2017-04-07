@@ -12,7 +12,7 @@ include_once '../../models/project.php';
 $userId = 1;
 
 //project id
-$projectId = 2;
+$projectId = 1;
 
 // instantiate database and member object
 $database = new Database();
