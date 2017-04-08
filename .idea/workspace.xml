@@ -2,16 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5cf418a-d8ad-4bb0-9e27-378c8ed6cc66" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/insert.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/sensors.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api_dev/controllers/project/getProjectSensors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/scripts/controllers/profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/scripts/controllers/projectDetails.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/scripts/controllers/sensor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/scripts/controllers/sensorDetails.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/scripts/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/views/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/views/sensor-details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app/views/sensor.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/Gruntfile_v2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/404_v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/index_v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/ressources/json/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/controllers/chartContoller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/controllers/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/chat/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/chat/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/dashboard/stats/stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/dashboard/stats/stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/header/header-notification/header-notification.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/header/header-notification/header-notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/header/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/header/header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/notifications/notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/notifications/notifications.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar-search/sidebar-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/timeline/timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/directives/timeline/timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/factories/global.factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/scripts/services/apiservice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/styles/main_v2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/styles/sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/styles/timeline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/dashboard/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/dashboard/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/pages/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/pages/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/ui-elements/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/ui-elements/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/ui-elements/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/ui-elements/notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/ui-elements/panels-wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/app/views/ui-elements/typography.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/bower_v2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/package_v2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/test/spec/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/test/spec/controllers/main.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/config/database.php" afterPath="$PROJECT_DIR$/api_dev/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php" afterPath="$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/controllers/member/login.php" afterPath="$PROJECT_DIR$/api_dev/controllers/member/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php" afterPath="$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/models/member.php" afterPath="$PROJECT_DIR$/api_dev/models/member.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/contraintes.sql" afterPath="$PROJECT_DIR$/sql/contraintes.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_dev/models/project.php" afterPath="$PROJECT_DIR$/api_dev/models/project.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/creation.sql" afterPath="$PROJECT_DIR$/sql/creation.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/insert_data.sql" afterPath="$PROJECT_DIR$/sql/insert_data.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,13 +97,88 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GTI791" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="insert_data.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql/insert_data.sql">
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="841" column="0" lean-forward="false" selection-start-line="841" selection-start-column="0" selection-end-line="841" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/scripts/factories/projectFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="94" lean-forward="false" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project-details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/views/project-details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="191" column="50" lean-forward="false" selection-start-line="191" selection-start-column="50" selection-end-line="191" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sensorDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/sensorDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sensor-details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/views/sensor-details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app/views/project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -40,8 +188,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar</find>
-      <find>nav navbar-top-links navbar-right</find>
       <find>client</find>
       <find>int</find>
       <find>Type</find>
@@ -52,7 +198,6 @@
       <find>scope</find>
       <find>Multi-Level</find>
       <find>read</find>
-      <find>member</find>
       <find>var</find>
       <find>var_</find>
       <find>product</find>
@@ -66,7 +211,13 @@
       <find>status</find>
       <find>md5</find>
       <find>insert</find>
+      <find>dataInfo</find>
       <find>float</find>
+      <find>respo</find>
+      <find>angular-datatable</find>
+      <find>member</find>
+      <find>de</find>
+      <find>$routeParams</find>
     </findStrings>
     <replaceStrings>
       <replace>statut</replace>
@@ -75,6 +226,7 @@
       <dir>$PROJECT_DIR$/api</dir>
       <dir>$PROJECT_DIR$/api/app</dir>
       <dir>$PROJECT_DIR$/api_dev</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -83,20 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sql/destruction.sql" />
-        <option value="$PROJECT_DIR$/api/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/api/app/views/dashboard/main.html" />
-        <option value="$PROJECT_DIR$/api_dev/public/index.php" />
-        <option value="$PROJECT_DIR$/api/config/core.php" />
-        <option value="$PROJECT_DIR$/api/config/database.php" />
-        <option value="$PROJECT_DIR$/api/objects/product.php" />
-        <option value="$PROJECT_DIR$/api/product/read.php" />
-        <option value="$PROJECT_DIR$/api_dev/controller/member.php" />
-        <option value="$PROJECT_DIR$/api_dev/controllers/member.php" />
-        <option value="$PROJECT_DIR$/api_dev/controllers/dataInfo.php" />
-        <option value="$PROJECT_DIR$/api_dev/controllers/project.php" />
-        <option value="$PROJECT_DIR$/api/app/views/table.html" />
-        <option value="$PROJECT_DIR$/api/app/scripts/directives/header/header.html" />
         <option value="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html" />
         <option value="$PROJECT_DIR$/api/app/scripts/directives/header/header-notification/header-notification.html" />
         <option value="$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.html" />
@@ -104,7 +242,6 @@
         <option value="$PROJECT_DIR$/api_dev/controllers/project/project.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/project/read.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/project/getProjectDetails.php" />
-        <option value="$PROJECT_DIR$/api_dev/models/project.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/sensor/getSensorInfo.php" />
         <option value="$PROJECT_DIR$/api_dev/models/sensor.php" />
         <option value="$PROJECT_DIR$/api_dev/controllers/sensor/getSensors.php" />
@@ -119,13 +256,36 @@
         <option value="$PROJECT_DIR$/api_dev/controllers/member/login.php" />
         <option value="$PROJECT_DIR$/api_dev/models/member.php" />
         <option value="$PROJECT_DIR$/sql/contraintes.sql" />
-        <option value="$PROJECT_DIR$/sql/creation.sql" />
-        <option value="$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php" />
         <option value="$PROJECT_DIR$/sql/vidage.sql" />
-        <option value="$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php" />
         <option value="$PROJECT_DIR$/sql/insertfast.sql" />
         <option value="$PROJECT_DIR$/data/insert.php" />
+        <option value="$PROJECT_DIR$/sql/creation.sql" />
         <option value="$PROJECT_DIR$/sql/insert_data.sql" />
+        <option value="$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php" />
+        <option value="$PROJECT_DIR$/app/views/home.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/app/scripts/sb-admin-2.js" />
+        <option value="$PROJECT_DIR$/app/app/scripts/controllers/sensor.js" />
+        <option value="$PROJECT_DIR$/app/bower.json" />
+        <option value="$PROJECT_DIR$/app/app/views/sensor.html" />
+        <option value="$PROJECT_DIR$/app/app/scripts/controllers/profile.js" />
+        <option value="$PROJECT_DIR$/app/app/views/profile.html" />
+        <option value="$PROJECT_DIR$/app/app/scripts/services/apiservice.js" />
+        <option value="$PROJECT_DIR$/app/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/app/views/project.html" />
+        <option value="$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php" />
+        <option value="$PROJECT_DIR$/api_dev/models/project.php" />
+        <option value="$PROJECT_DIR$/api_dev/controllers/project/getProjectSensors.php" />
+        <option value="$PROJECT_DIR$/app/app/scripts/factories/projectFactory.js" />
+        <option value="$PROJECT_DIR$/app/app/scripts/controllers/projectDetails.js" />
+        <option value="$PROJECT_DIR$/app/app/scripts/controllers/project.js" />
+        <option value="$PROJECT_DIR$/app/app/scripts/controllers/sensorDetails.js" />
+        <option value="$PROJECT_DIR$/app/app/index.html" />
+        <option value="$PROJECT_DIR$/app/app/views/project-details.html" />
+        <option value="$PROJECT_DIR$/app/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -136,7 +296,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/api/node_modules" />
+    <handled-path value="$PROJECT_DIR$/api_bckp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/app/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -158,7 +319,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,6 +343,166 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTI791" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,10 +555,6 @@
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -261,71 +578,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api_dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="member" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api_dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataInfo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GTI791" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api_dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,18 +589,20 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sql" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/api_dev/controllers/project" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sql" />
       <recent name="$PROJECT_DIR$/api_dev/controllers/project" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/app/views" />
+      <recent name="$PROJECT_DIR$/app/app/scripts/controllers" />
+      <recent name="$PROJECT_DIR$/api_dev/controllers/project" />
+      <recent name="$PROJECT_DIR$/app/app/scripts/services" />
+      <recent name="$PROJECT_DIR$/app/app/scripts" />
     </key>
   </component>
   <component name="RunManager">
@@ -428,35 +685,60 @@
       <workItem from="1491138897360" duration="7530000" />
       <workItem from="1491334788998" duration="12328000" />
       <workItem from="1491413030246" duration="2823000" />
-      <workItem from="1491521215631" duration="3072000" />
+      <workItem from="1491521215631" duration="4372000" />
+      <workItem from="1491614743888" duration="469000" />
+      <workItem from="1491616094364" duration="6000" />
+      <workItem from="1491616171138" duration="458000" />
+      <workItem from="1491668657025" duration="13227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46556000" />
+    <option name="totallyTimeSpent" value="62016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22109374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31796876" sideWeight="0.49430895" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18326694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31796876" sideWeight="0.50569105" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18380062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31796876" sideWeight="0.49430895" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18326694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31796876" sideWeight="0.50569105" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -471,206 +753,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/scripts/directives/sidebar/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/views/dashboard/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/views/dashboard/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/scripts/directives/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/scripts/directives/header/header-notification/header-notification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="73" column="83" lean-forward="false" selection-start-line="73" selection-start-column="83" selection-end-line="73" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/views/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/views/chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/project.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/read.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProject.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectDetails.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor/getSensorInfo.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/sensor.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/updatePassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo.php" />
-    <entry file="file://$PROJECT_DIR$/api_dev/models/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1491142982000" expanded="true" signature="504:511" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:519" ph="SELECT P.* F... " />
-            <marker date="1491142982000" expanded="true" signature="504:520" ph="SELECT P.* F... ${$table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:539" ph="SELECT P.* F... ${$table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:540" ph="SELECT P.* F... ${$this-&gt;table_name}" />
-            <marker date="1491142982000" expanded="true" signature="504:602" ph="SELECT P.* F... Project" />
-            <marker date="1491142982000" expanded="true" signature="504:606" ph="SELECT P.* F... Project" />
-            <marker date="1491142982000" expanded="true" signature="891:1008" ph="SELECT S.ID " />
-            <marker date="1491142982000" expanded="true" signature="891:1078" ph="SELECT S.ID Sensor" />
-            <marker date="1491142982000" expanded="true" signature="891:1134" ph="SELECT S.ID Sensor" />
-            <marker date="1491142982000" expanded="true" signature="1148:1230" ph="SELECT S.*, Sensor" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/models/DataInfoTest.php" />
-    <entry file="file://$PROJECT_DIR$/sql/insertion_sensors.sql" />
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-mocks/angular-mocks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1828" column="55" lean-forward="true" selection-start-line="1828" selection-start-column="55" selection-end-line="1828" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/src/loading-bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="305" column="28" lean-forward="false" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/build/loading-bar.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="3010" lean-forward="false" selection-start-line="6" selection-start-column="3010" selection-end-line="6" selection-end-column="3010" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/build/loading-bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="186" column="8" lean-forward="false" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-loading-bar/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="125">
-            <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-chart.js/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-bootstrap/ui-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1707" column="37" lean-forward="false" selection-start-line="1707" selection-start-column="37" selection-end-line="1707" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-bootstrap/ui-bootstrap-tpls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1708" column="37" lean-forward="false" selection-start-line="1708" selection-start-column="37" selection-end-line="1708" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/bower_components/Chart.js/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" />
+    <entry file="file://$PROJECT_DIR$/api/bower_components/Chart.js/README.md" />
     <entry file="file://$PROJECT_DIR$/api_dev/controllers/member/getMemberInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-191">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,19 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
           <caret line="97" column="46" lean-forward="true" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
-          <folding>
-            <marker date="1491414115000" expanded="true" signature="532:558" ph="SELECT * FRO... Member" />
-            <marker date="1491414115000" expanded="true" signature="532:563" ph="SELECT * FRO... Member" />
-            <marker date="1491414115000" expanded="true" signature="866:880" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="866:905" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="866:906" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="866:943" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="866:944" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="866:964" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="866:965" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1491414115000" expanded="true" signature="1456:1545" ph="UPDATE Membe... " />
-            <marker date="1491414115000" expanded="true" signature="2249:2346" ph="UPDATE Membe... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,15 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="82" column="49" lean-forward="false" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/creation.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="65" column="84" lean-forward="true" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,15 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,22 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1491360744000" expanded="true" signature="417:583" ph="SELECT * FRO... DataInfo" />
-            <marker date="1491360744000" expanded="true" signature="417:584" ph="SELECT D.ID,... DataInfo" />
-            <marker date="1491360744000" expanded="true" signature="417:599" ph="SELECT * FRO... DataInfo" />
-            <marker date="1491360744000" expanded="true" signature="417:603" ph="SELECT D.ID,... DataInfo" />
-            <marker date="1491360744000" expanded="true" signature="417:604" ph="SELECT D.ID,... DataInfo" />
-            <marker date="1491360744000" expanded="true" signature="417:605" ph="SELECT D.ID,... DataInfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,16 +837,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="562" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="562" />
-          <folding>
-            <marker date="1491143396000" expanded="true" signature="472:1016" ph="SELECT S.* F... Sensor" />
-            <marker date="1491143396000" expanded="true" signature="472:1032" ph="SELECT S.* F... Sensor" />
-            <marker date="1491143396000" expanded="true" signature="472:1033" ph="SELECT S.* F... Sensor" />
-            <marker date="1491143396000" expanded="true" signature="917:1016" ph="SELECT P.ID Project" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/insertfast.sql">
+    <entry file="file://$PROJECT_DIR$/sql/insertfast.sql" />
+    <entry file="file://$PROJECT_DIR$/data/insert.php" />
+    <entry file="file://$PROJECT_DIR$/sql/creation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/dataInfo/getDataInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="47" column="79" lean-forward="false" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="401" column="14" lean-forward="false" selection-start-line="401" selection-start-column="14" selection-end-line="401" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/node_modules/metismenu/dist/metisMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1534">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_bckp/app/js/sb-admin-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -818,18 +912,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/insert.php">
+    <entry file="file://$PROJECT_DIR$/api_bckp/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="826" column="84" lean-forward="true" selection-start-line="826" selection-start-column="84" selection-end-line="826" selection-end-column="84" />
+        <state relative-caret-position="341">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/angular-datatables/DEVELOPER.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/angular-datatables/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/sensor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/insert_data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="841" column="0" lean-forward="false" selection-start-line="841" selection-start-column="0" selection-end-line="841" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/services/apiservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/views/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/views/sensor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="427" column="6" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="427" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjectSensors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/factories/projectFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="94" lean-forward="false" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/models/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="39" column="182" lean-forward="false" selection-start-line="39" selection-start-column="182" selection-end-line="39" selection-end-column="182" />
+          <folding>
+            <marker date="1491682841000" expanded="true" signature="504:602" ph="SELECT P.* F... Project" />
+            <marker date="1491682841000" expanded="true" signature="895:1189" ph="SELECT S.ID Sensor" />
+            <marker date="1491682841000" expanded="true" signature="1457:1464" ph="SELECT S.ID Sensor" />
+            <marker date="1491682841000" expanded="true" signature="1457:1471" ph="SELECT * FRO... ${$projectID}" />
+            <marker date="1491682841000" expanded="true" signature="1457:1489" ph="SELECT * FRO... Project" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/projectDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_dev/controllers/project/getProjects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/views/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/views/sensor-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="191" column="50" lean-forward="false" selection-start-line="191" selection-start-column="50" selection-end-line="191" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/views/project-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/controllers/sensorDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding />
         </state>
       </provider>

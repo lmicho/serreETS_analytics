@@ -33,12 +33,26 @@ class Project{
         return $stmt;
     }
 
-    // get project info
+    // get project sensor
+    function getProjectSensor($projectID){
+
+        // select all query
+        $query = "SELECT S.ID AS sensor_id, S.name AS sensor_name, S.unit AS sensor_unit, S.description AS sensor_description, S.max_val AS sensor_maxval, S.min_val as sensor_minval FROM Sensor S LEFT JOIN Project_Sensor PS ON PS.ID_Sensor = S.ID LEFT JOIN Project P ON P.ID = PS.ID_Project WHERE PS.ID_Project =" .$projectID;
+
+        // prepare query statement
+        $stmt = $this->conn->prepare($query);
+
+        // execute query
+        $stmt->execute();
+
+        return $stmt;
+
+    }
+
     function getProjectInfo($projectID){
 
         // select all query
-        $query = "SELECT S.ID AS sensor_id, S.name AS sensor_name, S.unit AS sensor_unit, S.description AS sensor_description, P.* FROM Sensor S LEFT JOIN Project_Sensor PS ON PS.ID_Sensor = S.ID LEFT JOIN Project P ON P.ID = PS.ID_Project WHERE PS.ID_Project =" .$projectID;
-
+        $query = "SELECT * FROM Project WHERE ID =" .$projectID;
 
         // prepare query statement
         $stmt = $this->conn->prepare($query);

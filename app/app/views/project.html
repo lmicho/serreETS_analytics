@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-lg-12">
+    <h1 class="page-header">Projets</h1>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-lg-4" ng-repeat="project in projects">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a href="#/project/{{project.ID}}">{{project.name}}</a>
+      </div>
+      <div class="panel-body">
+        <p>{{project.description}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>

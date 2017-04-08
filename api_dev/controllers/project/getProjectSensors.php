@@ -22,7 +22,7 @@ $db = $database->getConnection();
 $project = new Project($db);
 
 // query project
-$stmt = $project->getProjectInfo($projectId);
+$stmt = $project->getProjectSensor($projectId);
 $num = $stmt->rowCount();
 
 // check if more than 0 record found
@@ -42,9 +42,12 @@ if($num>0){
         extract($row);
 
         $project_info_item=array(
-            "ID" => $ID,
-            "name" => $name,
-            "description" => $description
+            "sensor_id" => $sensor_id,
+            "sensor_name" => $sensor_name,
+            "sensor_unit" => $sensor_unit,
+            "sensor_description" => $sensor_description,
+            "sensor_maxval" => $sensor_maxval,
+            "sensor_minval" => $sensor_minval
         );
 
         array_push($project_info_arr["records"], $project_info_item);

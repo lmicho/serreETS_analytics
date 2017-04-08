@@ -48,7 +48,7 @@ CREATE TABLE Status(
 
 CREATE TABLE DataInfo(
   ID INT NOT NULL AUTO_INCREMENT,
-  data_entry VARCHAR(255) NOT NULL,
+  data_entry FLOAT NOT NULL,
   input_date Date,
   PRIMARY KEY (ID)
 );

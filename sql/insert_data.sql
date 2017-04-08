@@ -78,7 +78,7 @@ INSERT INTO `Arduino` (`ID`, `name`) VALUES
 
 CREATE TABLE `DataInfo` (
   `ID` int(11) NOT NULL,
-  `data_entry` varchar(255) COLLATE utf8_bin NOT NULL,
+  `data_entry` FLOAT NOT NULL,
   `input_date` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
@@ -839,3 +839,74 @@ ALTER TABLE `Sensor_Location`
 ALTER TABLE `Sensor_Status`
   ADD CONSTRAINT `FK_Sensor_Status_Sensor` FOREIGN KEY (`ID_Sensor`) REFERENCES `Sensor` (`ID`),
   ADD CONSTRAINT `FK_Sensor_Status_Status` FOREIGN KEY (`ID_Status`) REFERENCES `Status` (`ID`);
+
+
+
+
+/*INSERT INTO DataInfo (data_entry, input_date) VALUES
+(5, '2017-03-01'),
+(5, '2017-03-02'),
+(5, '2017-03-03'),
+(5, '2017-03-04'),
+(5, '2017-03-05'),
+(6, '2017-03-06'),
+(7, '2017-03-07'),
+(7, '2017-03-08'),
+(8, '2017-03-09'),
+(8, '2017-03-10'),
+(8, '2017-03-11'),
+(8, '2017-03-12'),
+(8, '2017-03-13'),
+(4, '2017-03-14'),
+(3, '2017-03-15'),
+(3, '2017-03-16'),
+(6, '2017-03-17'),
+(6, '2017-03-18'),
+(6, '2017-03-19'),
+(6, '2017-03-20'),
+(6, '2017-03-21'),
+(5, '2017-03-22'),
+(5, '2017-03-23'),
+(13, '2017-03-24'),
+(12, '2017-03-25'),
+(11, '2017-03-26'),
+(5, '2017-03-27'),
+(5, '2017-03-28'),
+(6, '2017-03-29'),
+(6, '2017-03-30'),
+(5, '2017-03-31');
+
+--
+INSERT INTO Sensor_DataInfo (ID_Sensor, ID_DataInfo) VALUES
+(1, 1),
+(1, 2),
+(1, 3),
+(1, 4),
+(1, 5),
+(1, 6),
+(1, 7),
+(1, 8),
+(1, 9),
+(1, 10),
+(1, 11),
+(1, 12),
+(1, 13),
+(1, 14),
+(1, 15),
+(1, 16),
+(1, 17),
+(1, 18),
+(1, 19),
+(1, 20),
+(1, 21),
+(1, 22),
+(1, 23),
+(1, 24),
+(1, 25),
+(1, 26),
+(1, 27),
+(1, 28),
+(1, 29),
+(1, 30),
+(1, 31);
+*/
