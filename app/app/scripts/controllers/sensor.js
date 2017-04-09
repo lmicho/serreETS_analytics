@@ -8,10 +8,22 @@
  * Controller of the appApp
  */
 angular.module('appApp')
-  .controller('SensorCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('SensorCtrl', function ($scope, sensorFactory) {
+
+      // getProject
+      function getSensors(){
+
+          // use products factory
+          sensorFactory.getSensors().then(function successCallback(response){
+
+              console.log(response);
+              $scope.sensors = response.data.records;
+          }, function errorCallback(response){
+              console.log("erreur");
+          });
+
+      }
+
+      getSensors();
+
   });

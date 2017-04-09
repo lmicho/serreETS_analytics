@@ -49,6 +49,7 @@ if($num>0){
             "description" => $description,
             "arduino" => $arduino,
             "location" => $location,
+            "location_description" => $location_description,
             "status" => $status
         );
 

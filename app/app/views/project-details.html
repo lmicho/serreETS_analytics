@@ -26,28 +26,23 @@
             <th>Description</th>
             <th>Valeur minimum</th>
             <th>Valeur maximum</th>
+            <th>Arduino</th>
+            <th>Emplacement</th>
+            <th>Statut</th>
           </tr>
           </thead>
           <tbody>
-
-          <div class="col-lg-4" ng-repeat="project in projects">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <a href="#/project/{{project.ID}}">{{project.name}}</a>
-              </div>
-              <div class="panel-body">
-                <p>{{project.description}}</p>
-              </div>
-            </div>
-          </div>
 
           <tr ng-repeat="sensor in sensors">
             <td>{{sensor.sensor_id}}</td>
             <td><a href="#/sensors/{{sensor.sensor_id}}">{{sensor.sensor_name}}</a></td>
             <td>{{sensor.sensor_unit}}</td>
             <td>{{sensor.sensor_description}}</td>
-            <td class="center">{{sensor.sensor_minval}}</td>
-            <td class="center">{{sensor.sensor_maxval}}</td>
+            <td>{{sensor.sensor_minval}}</td>
+            <td>{{sensor.sensor_maxval}}</td>
+            <td>{{sensor.sensor_arduino}}</td>
+            <td>{{sensor.sensor_location}} : {{sensor.sensor_location_description}}</td>
+            <td>{{sensor.sensor_status}}</td>
           </tr>
           </tbody>
         </table>

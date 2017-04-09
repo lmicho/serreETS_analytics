@@ -12,6 +12,10 @@ class Project{
     public $sensor_name;
     public $sensor_unit;
     public $sensor_description;
+    public $arduino;
+    public $location;
+    public $location_description;
+    public $sensor_status;
 
     // constructor with $db as database connection
     public function __construct($db){
@@ -37,7 +41,7 @@ class Project{
     function getProjectSensor($projectID){
 
         // select all query
-        $query = "SELECT S.ID AS sensor_id, S.name AS sensor_name, S.unit AS sensor_unit, S.description AS sensor_description, S.max_val AS sensor_maxval, S.min_val as sensor_minval FROM Sensor S LEFT JOIN Project_Sensor PS ON PS.ID_Sensor = S.ID LEFT JOIN Project P ON P.ID = PS.ID_Project WHERE PS.ID_Project =" .$projectID;
+        $query = "SELECT S.ID AS sensor_id, S.name AS sensor_name, S.unit AS sensor_unit, S.description AS sensor_description, S.max_val AS sensor_maxval, S.min_val as sensor_minval, A.name AS arduino, L.name AS location, L.description AS location_description, ST.name as sensor_status FROM Sensor S LEFT JOIN Sensor_Arduino SA ON SA.ID_Sensor = S.ID LEFT JOIN Arduino A ON SA.ID_Arduino = A.ID LEFT JOIN Project_Sensor PS ON PS.ID_Sensor = S.ID LEFT JOIN Sensor_Location SL ON SL.ID_Sensor = S.ID LEFT JOIN Location L ON SL.ID_Location = L.ID LEFT JOIN Project P ON P.ID = PS.ID_Project LEFT JOIN Sensor_Status SS ON SS.ID_Sensor = S.ID LEFT JOIN Status ST ON ST.ID = SS.ID_Status WHERE PS.ID_Project =" .$projectID;
 
         // prepare query statement
         $stmt = $this->conn->prepare($query);
