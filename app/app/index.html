@@ -72,9 +72,7 @@
               <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
             </a>
             <ul class="dropdown-menu dropdown-user">
-              <li><a href="#/profile"><i class="fa fa-user fa-fw"></i> Profil utilisateur</a>
-              </li>
-              <li><a href="#"><i class="fa fa-gear fa-fw"></i> Paramètres</a>
+              <li><a href="#/profile"><i class="fa fa-user fa-fw"></i> Profil</a>
               </li>
               <li class="divider"></li>
               <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Déconnexion</a>
@@ -114,7 +112,7 @@
       </nav>
 
       <div id="page-wrapper">
-        <div ng-view=""></div>
+        <div ng-view="" class="content-wrapper"></div>
       </div>
 
     </div>
@@ -156,6 +154,7 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
+    <script src="scripts/services/services.js"></script>
     <script src="scripts/controllers/project.js"></script>
     <script src="scripts/controllers/projectDetails.js"></script>
     <script src="scripts/controllers/sensor.js"></script>

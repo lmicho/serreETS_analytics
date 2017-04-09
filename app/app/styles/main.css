@@ -14,6 +14,17 @@ body {
   min-height: 568px;
   background-color: white;
 }
+
+.content-wrapper{
+  position: relative;
+}
+
+.btn-wrap{
+  position: absolute;
+  top :25px;
+  right:0;
+}
+
 @media (min-width: 768px) {
   #page-wrapper {
     position: inherit;
