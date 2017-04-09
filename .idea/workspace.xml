@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5cf418a-d8ad-4bb0-9e27-378c8ed6cc66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app/views/sensor-details.html" afterPath="$PROJECT_DIR$/app/app/views/sensor-details.html" />
-    </list>
+    <list default="true" id="b5cf418a-d8ad-4bb0-9e27-378c8ed6cc66" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -572,12 +569,12 @@
       <workItem from="1491616171138" duration="458000" />
       <workItem from="1491668657025" duration="13342000" />
       <workItem from="1491693711033" duration="20850000" />
-      <workItem from="1491756249730" duration="171000" />
+      <workItem from="1491756249730" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83152000" />
+    <option name="totallyTimeSpent" value="83506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
