@@ -19,18 +19,39 @@ Application web en Angular.js généré avec [Yeoman](http://yeoman.io/) et util
 #### Front end
 1. Installer [Node.js](https://nodejs.org/en/)
 2. Ouvrir l'invite de commande et naviguer à travers les dossiers jusqu'à l'emplacement de code(/app)
-3. Installer le générateur [Yeoman](http://yeoman.io/learning/index.html) code(npm install -g yo)
-4. Installer [Grunt](https://gruntjs.com/getting-started) code(npm install -g grunt)
-5. Installer [Bower](https://bower.io/) code(npm install -g bower)
-6. Installer les dépendances Node nécessaires code(npm install)
-7. Installer les dépendances Bower nécessaire code(bower install)
-8. Démarrer le serveur web code(grunt serve)
+3. Installer le générateur [Yeoman](http://yeoman.io/learning/index.html) 
+```
+npm install -g yo
+```
+4. Installer [Grunt](https://gruntjs.com/getting-started)
+```
+npm install -g grunt
+```
+5. Installer [Bower](https://bower.io/)
+```
+npm install -g bower
+```
+6. Installer les dépendances Node nécessaires
+```
+npm install
+```
+7. Installer les dépendances Bower nécessaires
+```
+bower install
+```
+8. Démarrer le serveur web
+```
+grunt serve
+```
 
 ### Préparer l'application web pour la production
 #### Backend
 1. Le code présent dans le dossier code(/api_dev) doit être copié sur le serveur applicatif.
 #### Frontend
-1. Afin de minifier le code, compresser les images (s'il y a lieu) et rendre l'application web prête pour être mise en ligne il faut exécuter cette commande code(grunt build) à la racine de l'application code(/app).
+1. Afin de minifier le code, compresser les images (s'il y a lieu) et rendre l'application web prête pour être mise en ligne il faut exécuter cette commande code à la racine de l'application code(/app).
+```
+grunt build
+```
 2. Une fois les opérations de commpression et de minification terminée, l'application générée se retrouve dans le dossier code(/dist). L'ensemble de ce dossier doit être copié sur le serveur applicatif.
 
 ## À faire
