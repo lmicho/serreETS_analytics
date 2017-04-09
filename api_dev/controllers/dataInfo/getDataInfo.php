@@ -1,7 +1,10 @@
 <?php
 // required headers
 header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Allow-Headers: access");
+header("Access-Control-Allow-Methods: GET");
+header("Access-Control-Allow-Credentials: true");
+header('Content-Type: application/json');
 
 
 // include database and object files
@@ -15,11 +18,11 @@ $db = $database->getConnection();
 // initialize object
 $dataInfo = new DataInfo($db);
 
-// member id
-$sensorName = "PH01";
+// sensor id
+$sensorId = isset($_GET['id']) ? $_GET['id'] : die();
 
 // query dataInfo
-$stmt = $dataInfo->getDataInfoBySensorName($sensorName);
+$stmt = $dataInfo->getDataInfoBySensorId($sensorId);
 $num = $stmt->rowCount();
 
 // check if more than 0 record found
@@ -39,7 +42,7 @@ if($num>0){
         extract($row);
 
         $dataInfo_item=array(
-            "ID" => $id,
+            "id" => $ID,
             "data_entry" => $data_entry,
             "input_date" => $input_date
         );

@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name appApp.controller:MainCtrl
+ * @name appApp.controller:ProjectDetailCtrl
  * @description
- * # MainCtrl
+ * # ProjectDetailCtrl
  * Controller of the appApp
  */
 angular.module('appApp')
@@ -24,7 +24,6 @@ angular.module('appApp')
               console.log("erreur");
           });
       }
-
       getProjectInfo(id);
 
       function getProjectSensors(id){
@@ -41,8 +40,6 @@ angular.module('appApp')
 
 
       }
-
       getProjectSensors(id);
-
 
   });

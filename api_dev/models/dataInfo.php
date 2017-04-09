@@ -15,10 +15,10 @@ class DataInfo{
     }
 
     // read dataInfo
-    function getDataInfoBySensorName($sensorName){
+    function getDataInfoBySensorId($sensorId){
 
         // select all query
-        $query = "SELECT D.ID, D.data_entry, D.input_date FROM DataInfo D LEFT JOIN Sensor_DataInfo SD ON SD.ID_DataInfo = D.ID LEFT JOIN Sensor S ON S.ID = SD.ID_Sensor WHERE S.name ='" . $sensorName . "'";
+        $query = "SELECT D.ID, D.data_entry, D.input_date FROM DataInfo D LEFT JOIN Sensor_DataInfo SD ON SD.ID_DataInfo = D.ID LEFT JOIN Sensor S ON S.ID = SD.ID_Sensor WHERE S.ID ='" . $sensorId . "'";
 
 
 

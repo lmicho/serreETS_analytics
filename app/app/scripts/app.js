@@ -18,7 +18,8 @@ var app = angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'angular.morris'
   ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
