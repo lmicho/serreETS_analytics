@@ -1,4 +1,4 @@
-# GTI791
+# SerreÉTS Analytics
 Projet spécial : Application Web d'analyse de données pour SerreÉTS
 
 ## API Backend
